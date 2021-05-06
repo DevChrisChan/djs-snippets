@@ -6,7 +6,7 @@ Yes I am lazy I mean it works I'll do it from nothing by myself when I'm free
   box-sizing: border-box;
 }
 
-#myInput {
+#input {
   background-image: url('/css/searchicon.png');
   background-position: 10px 10px;
   background-repeat: no-repeat;
@@ -17,22 +17,22 @@ Yes I am lazy I mean it works I'll do it from nothing by myself when I'm free
   margin-bottom: 12px;
 }
 
-#myTable {
+#table {
   border-collapse: collapse;
   width: 100%;
   border: 1px solid #ddd;
   font-size: 18px;
 }
 
-#myTable th, #myTable td {
+#table th, #table td {
   text-align: left;
   padding: 12px;
 }
 
-#myTable tr {
+#table tr {
   border-bottom: 1px solid #ddd;
 }
 
-#myTable tr.header, #myTable tr:hover {
+#table tr.header, #table tr:hover {
   background-color: #f1f1f1;
 }
