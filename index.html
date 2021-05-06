@@ -17,7 +17,44 @@
 </head>
   <body>
     <h1>Another work in process site by Chris.</h1>
-    <pre><code class="language-js">const test = "test"</code></pre>
+    <table id="table ">
+  <tr class="header">
+    <th style="width:30%;">Snippet name</th>
+    <th style="width:70%;">Snippet code</th>
+  </tr>
+  <tr>
+    <td>Configurate bot's username</td>
+    <td><client>.user.setUsername('<username>');</td>
+  </tr>
+  <tr>
+    <td>Configurate bot's avatar</td>
+    <td><client>.user.setAvatar('<url or path>');</td>
+  </tr>
+  <tr>
+    <td>Configurate bot online/idle/do not disturb/invisible</td>
+    <td><client>.user.setStatus('online/idle/dnd/invisible');</td>
+  </tr>
+  <tr>
+    <td>Send a message</td>
+    <td>message.channel.send('message')</td>
+  </tr>
+  <tr>
+    <td>Send a DM to command triggerer</td>
+    <td>message.author.send('message')</td>
+  </tr>
+  <tr>
+    <td>Ban a user</td>
+    <td><guild>.members.ban<message>(message.mentions.users.first())</td>
+  </tr>
+  <tr>
+    <td>Unban a user</td>
+    <td><guild>.members.unban('id');</td>
+  </tr>
+  <tr>
+    <td>Kick a user</td>
+    <td>message.mention.members.first().kick;</td>
+  </tr>
+</table>
     <script>
 	    var scroll = new SmoothScroll('a[href*="#"]');
 	    speed: 420;
