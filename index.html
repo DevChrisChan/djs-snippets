@@ -23,6 +23,13 @@
 	    speed: 420;
 	    speedAsDuration: true;
     </script>
+    <script>
+  	function copy() {
+	  var copyText = document.getElementById("copyTarget");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+}
    <script src="scripts/prism.js"></script>  
   </body>
 </html>
